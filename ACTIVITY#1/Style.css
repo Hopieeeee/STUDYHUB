@@ -1,0 +1,79 @@
+body {
+font-size: 16px;
+font-family: 'Noto Serif', serif;
+color:black;
+}
+
+.container{
+width: 80%;
+margin: 50px auto;
+}
+
+.contact-box{
+display: flex;
+
+}
+.contact-left {
+    flex-basis: 33%;
+    padding: 40px 60px;
+    background-color:rgba(166, 187, 141, 0.884);
+    border-radius: 20px;
+    border: 3px solid #fff;
+    border-color: black;
+
+}
+.contact-middle {
+    flex-basis: 33%;
+    padding: 40px 60px;
+    background-color: rgba(166, 187, 141, 0.884);
+    border-radius: 20px;
+    border: 3px solid #fff;
+    border-color: black;
+}
+.contact-right {
+    flex-basis: 33%;
+    padding: 40px 60px;
+    background-color: rgba(166, 187, 141, 0.884);
+    border-radius: 20px;
+    border: 3px solid #fff;
+    border-color: black;
+}
+h1{
+    border-style:double;
+    color:black;
+    border-color:#A0C49D;
+    margin-left: 5%;
+    margin-right: 5%;;
+    background-image:linear-gradient(#A0C49D,#C4D7B2,#E1ECC8,#F7FFE5);
+}
+
+h2{
+    color: rgb(234, 231, 177);
+    border-color: white;
+    margin-left: 10%;
+}
+h3{
+    margin-bottom: 10px;
+    color:black;
+    text-align: center;
+}
+.input-row{
+    margin-bottom: 20px;
+}
+
+.input-row .input group {
+    flex-basis: 45%;
+}
+.input{
+    width: 100%;
+    padding-bottom: 5px;
+}
+textarea { 
+    width: 100%;
+    border-radius: 5%;
+    border-bottom: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
